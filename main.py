@@ -17,17 +17,6 @@ class CrawlManager:
             self.run_spider(url)
 
 if __name__ == '__main__':
-    urls = [
-        "https://www.pepsico.com",
-        "https://www.tysonfoods.com",
-        "https://www.coca-colacompany.com",
-        "https://www.generalmills.com",
-        "https://www.conagrabrands.com",
-        "https://www.jmsmucker.com"
-    ]
-    keywords = ["supplier diversity", "vendor", "sourcing", "supplier", "supply chain", "procurement"]
-
-if __name__ == '__main__':
     primary_keywords = ["supplier", "supplier diversity", "vendor", "sourcing", "supply chain", "procurement", 'vendors']
     secondary_keywords = ["register", "join", "sign", "become", "registration", "submit", "apply", "interested", "fill out", "join",  "becoming", "registered"]
     urls = [
